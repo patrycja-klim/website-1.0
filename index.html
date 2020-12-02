@@ -1,82 +1,154 @@
-<!-- 
-color: #30be8e;
-background: #888;
-background: #f1f1f1; -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <header id="header" class="">
-     
-        >
-          <span class="text"> Patrycja Klim</span>
-          <canvas
-            width="80"
-            height="40"
-            class="logo"
-            style="
-              touch-action: none;
-              width: 80px;
-              height: 40px;
-              cursor: inherit;
-            "
-          ></canvas
-        ></a>
-      </h1>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Patrycja's FCC Application website-1.0</title>
+  </head>
+          <!---Main web page start  -->
+
+  <header>
+  
+  
+
+     <div class="container">
+     <img src="\Users\patrycjaklim\Desktop\website-1.0\tree.jpg" alt="Larg-img" style="width:100% "/>
+     <div class="text-block">
+   
+     <div class="flex-container2">
+     <div>~PK~</div>
+     </div>  
+       <h1 style="color: white"> Application for Founders and Coders</h1>
+       <h2 style="color: black">  Patrycja Klim Coding Adventure.</h2>
+      
+    </div>
+    </div>
+  </div>
+      </div>
+    </div> 
+      
     </header>
     <style>
-      #myContainer {
-        width: 500px;
-        height: 400px;
-        position: relative;
-        border-radius: 50%;
-        background: #30be8e;
-      }
 
-      .dot {
-        height: 25px;
-        width: 25px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
+      
+      
+    
+
+
+      .flex-container2 {
+        position: fixed;
+        top:0%;
+        left:0;
+        /* padding: 1em; */
+        height: 70px;
+        width: 100%;
+        background-color:black;
+        flex-direction: row;
+        display: flex;
+        align-items:center;
       }
-      body {
-        background-color: #f1f1f1;
+      
+      .text-block {
+        position: absolute;
+        bottom: 38px;
+        left:30px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 10px;
+
       }
-      .grey-text {
-        color: #888;
-      }
+    .larg-img {
+     height: 10px;
+     width: 100px;
+     /* font-size: 50px; */
+     text-align: center;
+     box-sizing: border-box;
+     max-height: 100vh;
+    }
+     
+    .flex-container {
+     display: flex;
+     background-color:black;
+     width: 100%;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center;
+
+    }
+    .flex-container > div {
+     background-color: white;
+     margin: 20px;
+     padding: 20px;
+     font-size: 30px;
+     
+    }
+    .links-header {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     position: relative;
+     width: 100%;
+     /* vertical-align: baseline; */
+     justify-content: space-evenly;
+     padding:20px;
+    }
+    
+    
+   
+      
       h1 {
-        text-align: bottom;
+      text-align: center;
+      font-size: 50px;  
+      height: 80px;
+      font-family:sans-serif;
       }
+
+      h2 {
+        text-align: center;
+        font-size: 50px;
+        font:Arial;
+         }
+     
     </style>
-  </head>
-
+  
+  
   <body>
-    <h1 style="color: #888">My application for Founders and Coders</h1>
 
-    <span class="dot"></span>
+   
+    
 
-    <p style="color: #30be8e">place for the content!</p>
+    
+
+
+
+<div class="flex-container">
+  <div>About</div>
+  <div>My Work</div>
+  <div>Why Coding</div> 
+  <div>Contact</div>  
+</div>
+
 <div class="links-header"> </div>
     <!--Progress links to application  -->
 
     <div class="links">
       <a href="https://github.com/patrycja-klim" target="_blank">
-        <img scr="  ?      " alt="GitHub" height="100px" />
+        <img src="\Users\patrycjaklim\Desktop\website-1.0\icon__github.png" alt="GitHub" height="100px" />
       </a>
     </div>
     <div class="links">
       <a href="https://www.freecodecamp.org/patrycjak" target="_blank">
-        <img scr="   ? " alt="FCC" height="100px" />
+        <img src="\Users\patrycjaklim\Desktop\website-1.0\icon_freecodecamp.png" alt="FCC" height="100px" />
       </a>
       </div>
       <div class="links">
         <a href="https://www.codewars.com/users/patrycja-klim" target="_blank">
-          <img scr="Logos/codewars-logo.png" alt="Codewars" height="100px" />
+          <img src="\Users\patrycjaklim\Desktop\website-1.0\icon_codewars.png" alt="Codewars" height="100px" />
         </a>
       </div>
-      
-<!---Progres links -->
     </div>
+<!---Progres links -->
+    
   </body>
 </html>
